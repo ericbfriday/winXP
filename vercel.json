@@ -1,0 +1,3 @@
+{
+    "buildCommand": "yarn nx run @friday/winXP:build"
+}
