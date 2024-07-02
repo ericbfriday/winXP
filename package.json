@@ -1,9 +1,9 @@
 {
-  "name": "winXP",
+  "name": "@friday/winXP",
   "version": "0.1.0",
   "private": true,
   "author": "ShizukuIchi <shizukuichi@gmail.com>",
-  "homepage": "https://winxp.now.sh",
+  "homepage": "https://ericbfriday.com",
   "dependencies": {
     "lodash.samplesize": "^4.2.0",
     "react": "^16.8.6",
@@ -34,13 +34,18 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "@nx/eslint": "19.3.2",
+    "eslint": "7.32.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^3.1.0",
+    "nx": "19.3.2",
     "prettier": "^1.18.2"
   },
-  "engines": {
-    "node": ">=10.16.0"
-  }
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "4.1.0"
+  },
+  "packageManager": "yarn@4.1.0",
+  "nx": {}
 }
