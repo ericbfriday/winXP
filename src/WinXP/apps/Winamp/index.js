@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Webamp from 'webamp';
+import { Webamp } from 'webamp';
 import { initialTracks } from './config';
 
 function Winamp({ onClose, onMinimize }) {
@@ -10,12 +10,17 @@ function Winamp({ onClose, onMinimize }) {
     if (!target) {
       return;
     }
-    webamp.current = new Webamp({
-      initialTracks,
-    });
-    webamp.current.renderWhenReady(target).then(() => {
-      target.appendChild(document.querySelector('#webamp'));
-    });
+    // if (window['Webamp']) webamp.current = window.Webamp;
+    try {
+      webamp.current = new Webamp({
+        initialTracks,
+      });
+      webamp.current.renderWhenReady(target).then(() => {
+        target.appendChild(document.querySelector('#webamp'));
+      });
+    } catch (err) {
+      console.error(err);
+    }
     return () => {
       webamp.current.dispose();
       webamp.current = null;
