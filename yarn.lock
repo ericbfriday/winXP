@@ -3141,6 +3141,7 @@ __metadata:
     "@swc/helpers": "npm:~0.5.11"
     "@swc/types": "npm:^0.1.9"
     "@types/node": "npm:^20.14.9"
+    browserslist: "npm:^4.23.1"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:8.10.0"
     eslint-plugin-prettier: "npm:^5.1.3"
@@ -6382,7 +6383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.22.2, browserslist@npm:^4.23.0":
+"browserslist@npm:^4.22.2, browserslist@npm:^4.23.0, browserslist@npm:^4.23.1":
   version: 4.23.1
   resolution: "browserslist@npm:4.23.1"
   dependencies:
@@ -6575,14 +6576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
-  version: 1.0.30001439
-  resolution: "caniuse-lite@npm:1.0.30001439"
-  checksum: 10c0/0467711704bef4e1ef1bca40fa3b32c7d6376060bd2f1eda5d9a00014101535123960e19a9039c01de612db11ab34a2a470964991f1d7c62e39e1c9fa2e701d9
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001629":
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426, caniuse-lite@npm:^1.0.30001629":
   version: 1.0.30001639
   resolution: "caniuse-lite@npm:1.0.30001639"
   checksum: 10c0/3f56ce3d516a4fba959ad10ed6ecb15c6329233fc01f9f2714234a2ca91f408296d708a366ece510ca6566f71cb80d20d4c019441a1451ac1456e0128c8de78a
